@@ -42,8 +42,10 @@ background: #DD1A1A;
   border-radius: 20px;
   padding: 5px;
 }
-.header{
+.buttonlow{
 
+display: grid;
+grid-template-rows: 1fr 1fr;
 }
 .header-black{
 

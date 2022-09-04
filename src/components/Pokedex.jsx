@@ -117,8 +117,9 @@ const pokedex = () => {
           <Pokemoncard key={pokemon.url} url={pokemon.url} index={index} pagination={pagination}/>
         ))}
       </div>
+      <div className="buttonlow">
       <button className="botdex" onClick={handleclickback}>Atras</button>
-      <button className="botdex" onClick={handleclicknext}>Adelante</button>
+      <button className="botdex" onClick={handleclicknext}>Adelante</button></div>
     </div>
     
   );
