@@ -45,7 +45,7 @@ background: #DD1A1A;
 .buttonlow{
 
 display: grid;
-grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
 }
 .header-black{
 
