@@ -21,8 +21,15 @@ function App() {
     <HashRouter>
     <div className="App">
     <div className='header'>
+      <img className='header-img' src="..\public\image 12.png" alt="" />
+      <div className='elli1'>
+
+      </div>
+      <div className='elli2'>
+
+      </div>
       <div className='header-red'>   </div>
-      <div className='header-black'> </div>
+      <div className='header-black'>  </div>
     </div>
     
     <Routes>
@@ -33,7 +40,7 @@ function App() {
 	      <Route path="/pokedex/:id" element={<Pokemondata />} />
       </Route>
       </Routes>
-      <p>Esto se mostrará abajo de lo que salga de las rutas</p>
+      {/* <p>Esto se mostrará abajo de lo que salga de las rutas</p> */}
     </div>
     </HashRouter>
   )

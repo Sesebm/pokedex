@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div>
     <h1 className='salute'>Hola entrenador!</h1>
-    <p>Para poder comenzar dame tu nombre</p>
+    <div className='secondarytext'>Para poder comenzar dame tu nombre</div>
 
 
 
@@ -32,10 +32,11 @@ const Home = () => {
      <div className="form__group field">
   <input type="input" className="form__field" placeholder="Nombre" name="name" id='name' required />
   <label htmlFor="name" className="form__label">Nombre</label>
+  <button className='startbutton'>Comenzar!</button>
 </div>
       {/* <input id='name' type="text" /> */}
 
-      <button>Comenzar!</button>
+      
     </form>
     </div>
   )
